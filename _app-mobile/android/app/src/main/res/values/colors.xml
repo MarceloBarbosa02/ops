@@ -1,0 +1,13 @@
+<resources>
+  <color name="iconBackground">#ffffff</color>
+  <color name="colorPrimary">#023c69</color>
+  <color name="colorPrimaryDark">#ffffff</color>
+  <color name="splashscreen_background">#FDFDFD</color>
+
+  <color name="colorGray">#7C8183</color>
+  <color name="colorWhite">#FAFAFA</color>
+  <color name="colorBlack">#171717</color>
+  <color name="colorBlueMask">#0D6EDE</color>
+  <color name="colorGreen">#27825C</color>
+  <color name="colorOrange">#E69305</color>
+</resources>

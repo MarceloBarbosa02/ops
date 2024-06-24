@@ -1,0 +1,17 @@
+{
+  "env": "sandbox-qa",
+  "infoBase": {
+    "baseURL": "https://app-api.kirvano.com",
+    "headers": {
+      "Accept": "application/json",
+      "Origin": "https://app.kirvano.com",
+      "Content-Type": "application/json"
+    },
+    "timeout": 50000
+  },
+  "mobile": {
+    "appName": "Kirvano",
+    "avatarURL": "https://app-api.kirvano.com/users/update-photo",
+    "isTesting": false
+  }
+}

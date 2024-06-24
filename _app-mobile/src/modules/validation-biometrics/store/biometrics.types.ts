@@ -1,0 +1,6 @@
+export type TTypeDocumentProps =
+  | 'DRIVER_LICENSE_VERSE'
+  | 'IDENTITY_CARD_VERSE'
+  | 'DRIVER_LICENSE_FRONT'
+  | 'IDENTITY_CARD_FRONT'
+  | 'SELFIE';

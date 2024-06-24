@@ -1,0 +1,17 @@
+{
+  "env": "development",
+  "infoBase": {
+    "baseURL": "https://app-api-qa2.kirvano.com",
+    "headers": {
+      "Accept": "application/json",
+      "Origin": "https://app-qa2.kirvano.com",
+      "Content-Type": "application/json"
+    },
+    "timeout": 50000
+  },
+  "mobile": {
+    "app_name": "Kirvano QA2",
+    "avatar_url": "https://app-api-qa2.kirvano.com/users/update-photo",
+    "isTesting": true
+  }
+}

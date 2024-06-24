@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831559631095",
+    "project_id": "kirvano-app",
+    "storage_bucket": "kirvano-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831559631095:android:9ed35621ccf8788e9393f2",
+        "android_client_info": {
+          "package_name": "br.com.app.kirvano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831559631095-62i9c7dk370be7ulrn57ojku06vj40qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxdwD_hzoGj2AB0f0B_4vnEoAXxh7kSWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831559631095-62i9c7dk370be7ulrn57ojku06vj40qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

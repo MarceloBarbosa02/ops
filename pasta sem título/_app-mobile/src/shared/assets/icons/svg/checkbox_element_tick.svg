@@ -1,0 +1,6 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Checkbox_Element_Tick">
+<rect id="Checkbox_Element" x="1" y="1" width="14" height="14" rx="7" fill="#0D6EDE" stroke="#0D6EDE" stroke-width="2"/>
+<path id="Tick" d="M5 8.22L7.66571 10.44L11.22 6" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>

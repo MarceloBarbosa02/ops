@@ -1,0 +1,104 @@
+{
+  "expo": {
+    "name": "Kirvano",
+    "slug": "app_kirvano",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "kirvano",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#181818"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "app-stg.kirvano.com",
+              "pathPrefix": "/email-confirmation/"
+            },
+            {
+              "scheme": "https",
+              "host": "app-stg.kirvano.com",
+              "pathPrefix": "/contact-update/email-validation/"
+            },
+            {
+              "scheme": "https",
+              "host": "app-qa.kirvano.com",
+              "pathPrefix": "/email-confirmation/"
+            },
+            {
+              "scheme": "https",
+              "host": "app-qa.kirvano.com",
+              "pathPrefix": "/contact-update/email-validation/"
+            },
+            {
+              "scheme": "https",
+              "host": "app.kirvano.com",
+              "pathPrefix": "/email-confirmation/"
+            },
+            {
+              "scheme": "https",
+              "host": "app.kirvano.com",
+              "pathPrefix": "/contact-update/email-validation/"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ],
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "br.com.app.kirvano"
+    },
+    "ios": {
+      "associatedDomains": [
+        "applinks:app-stg.kirvano.com",
+        "applinks:app-qa.kirvano.com",
+        "applinks:app.kirvano.com",
+        "applinks:kirvano.page.link"
+      ],
+      "bundleIdentifier": "br.com.app.kirvano",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access camera.",
+        "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to access your microphone.",
+        "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) permission to access your location.",
+        "NSLocationAlwaysUsageDescription": "Allow $(PRODUCT_NAME) permission to save photos.",
+        "NSLocationWhenInUseUsageDescription": "Allow $(PRODUCT_NAME) to save photos."
+      },
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryDiskSpace",
+            "NSPrivacyAccessedAPITypeReasons": ["85F4.1"]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp",
+            "NSPrivacyAccessedAPITypeReasons": ["DDA9.1", "3B52.1"]
+          }
+        ]
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "production"
+        }
+      ]
+    ]
+  }
+}

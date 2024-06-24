@@ -1,0 +1,16 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */,
+    "baseUrl": ".",
+    "paths": {
+      "@modules": ["./src/modules"],
+      "@modules/*": ["./src/modules/*"],
+      "@routes": ["./src/routes"],
+      "@routes/*": ["./src/routes/*"],
+      "@shared": ["./src/shared"],
+      "@shared/*": ["./src/shared/*"],
+    },
+  }
+}
